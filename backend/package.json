@@ -1,0 +1,28 @@
+{
+  "name": "supplier-data-service",
+  "version": "1.0.0",
+  "description": "Backend service for AI Supplier Report Generator PoC",
+  "main": "supplier-data-service.js",
+  "scripts": {
+    "start": "node supplier-data-service.js",
+    "dev": "nodemon supplier-data-service.js",
+    "test": "node test-database.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "supplier",
+    "analytics",
+    "ai",
+    "reporting",
+    "sqlite"
+  ],
+  "author": "Your Organization",
+  "license": "MIT"
+}
